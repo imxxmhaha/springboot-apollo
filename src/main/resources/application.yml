@@ -1,0 +1,9 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: springboot-apollo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://120.78.137.82:8080/eureka
